@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix {
+  clear: both;
+  height: 0; }
+
+body {
+  background: gray; }
+
+.container {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto; }
+
+a, input, button {
+  cursor: pointer;
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  display: inline-block;
+  font-size: 20px; }
+
+img {
+  width: 100%;
+  height: auto; }
