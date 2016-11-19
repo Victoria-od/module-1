@@ -1,0 +1,4 @@
+[Sat Nov 19 2016 15:46:04 GMT+0200 (Финляндия (зима))] Layer "Link 1. Attribute as Freepik from Flaticon.com": Unsupported extension: com
+[Sat Nov 19 2016 15:46:04 GMT+0200 (Финляндия (зима))] Layer "Responsive Design For Modern Screens. Attribute as Freepik from Flaticon.com": Unsupported extension: com
+[Sat Nov 19 2016 15:46:04 GMT+0200 (Финляндия (зима))] Layer "Apple IPhone. Attribute as Freepik from Flaticon.com": Unsupported extension: com
+[Sat Nov 19 2016 15:46:04 GMT+0200 (Финляндия (зима))] Layer "Verification Checkmark Symbol In Black Circular Button. Attribute as Sebastien Gabriel from Flaticon.com": Unsupported extension: com

@@ -1,3 +1,10 @@
+$hfont:'Raleway', sans-serif;
+$gfont:'Lato', sans-serif;
+$glight_color:#ffffff;
+$gdark_color:#000000;
+$section_color:#222222;
+
+/*GENERAL START*/
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -9,12 +16,8 @@
 	height: 0;
 }
 
-body{
-	background: gray;
-}
-
 .container{
-	max-width: 1165px;
+	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -22,6 +25,10 @@ body{
 a,input,button{
 	cursor:pointer;
 	text-decoration: none;
+}
+
+input,button{
+	outline:none;
 }
 
 ul{
@@ -35,7 +42,372 @@ li{
 	font-size: 20px;
 }
 
-img{
-	width: 100%;
+
+/*GENERAL END*/
+
+/*HEADER START*/
+header{
+	background-image: url('../img/header.jpg');
+	width:100%;
+	height:900px;
+	padding-top: 50px;
+	.logo--header{
+		margin-left: 108px;
+		float:left;
+	}
+
+}
+.logo{
+	max-width:109px;
+	height:18px;
+
+}
+
+.header-menu{
+	float:right;
+	
+	li{
+		margin-left: 50px;	
+		padding-top:7px;
+	}
+	a{
+		text-transform: uppercase;
+		font-family:$gfont;
+		color: $glight_color;
+		font-size: 13.92px; 
+		font-weight: 500;
+		line-height: 40px;
+		transform: scaleY(1.0054); 
+	}
+	a:hover{
+		border-top: 3px solid $glight_color;
+	}
+}
+
+.header-text{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 185px;
+	color:$glight_color;
+	img{
+		margin:0 auto;
+		max-width:92px;
+		height:auto;
+	}
+	a:hover{
+		opacity:0.5;
+	}
+}
+.header__p{
+	font-family:$gfont;
+	color: #fffefe;
+	font-size: 22px; 
+	font-weight: 400;
+	line-height: 30px; 
+	text-align: center;
+	margin-bottom: 257px;
+}
+
+h1{
+	font-family:$hfont;
+	text-transform: uppercase;
+	color: $glight_color;
+	font-size: 48px; 
+	font-weight: 700;
+	line-height: 60px; 
+	/*text-align: center;*/
+}
+
+.white{
+	background:$glight_color;	
+}
+
+.line{
+	width:86px;
+	height:2px;
+	/*text-align: center;*/
+
+}
+
+/*HEADER END*/
+
+/*SECTION-1 START*/
+
+.section-1{
+	background: $glight_color;
+	width:100%;
+	height:735px;
+	text-align: center;
+	padding-top:78px;
+	padding-bottom: 117px;
+	vertical-align: bottom;
+}
+
+.section__title{
+	text-transform: uppercase;
+	font-family: $hfont;
+	color: $section_color;
+	font-size: 35px; 
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+	padding-bottom: 17px;/*77px-60px*/
+}
+.black{
+	background:$gdark_color;	
+}
+.spacing--top{
+	padding-top: 78px;
+}
+svg{
+	fill:#005494;
+	fill-rule:evenodd;
+	max-width: 100%;
 	height: auto;
 }
+
+#apple-svg{
+	width:74.993px;
+}
+
+#responsible-svg{
+	width:191.922px;
+}
+#perfect-svg{
+	width:116.001px;	
+}
+.section-1__subtitle{
+	font-family: $gfont;
+	color: $section_color;
+	font-size: 24px; 
+	font-weight: 400;
+	line-height: 24px; 
+}
+
+.section-1__text{
+	font-family: $gfont;
+	color: $section_color;
+	font-size: 16px; 
+	font-weight: 400;
+	line-height: 30px; 
+}
+
+/*SECTION-1 END*/
+
+/*SECTION-2 START*/
+.section-2{
+	width:100%;
+	height:500px;
+	background: url('../img/bg_phone.jpg');
+	overflow: hidden;
+	.section-2__title{
+		text-transform: uppercase;
+		font-family:$gfont;
+		color: $glight_color;
+		font-size: 44.67px;
+		font-weight: 400;
+		transform: scaleY(1.0092); 
+		margin-bottom: 0;
+	}
+	.section-2__text{
+		font-family:$gfont;
+		color: $glight_color;
+		font-size: 22px; 
+		font-weight:100;
+		line-height: 28px;
+		margin-top: 0;
+	}
+}
+.section-2__left{
+	float:left;
+	padding-top: 173px;
+	width:50%;
+	a{
+		margin-top: 73px;
+		text-decoration: underline;
+		color:$glight_color;
+	}
+	a:hover{
+		color:#e248dd;
+	}
+}
+
+.section-2__right{
+	float:right;
+	
+	img{
+		padding-top:76px;
+		padding-right: 100px;
+	}
+}
+
+/*SECTION-2 END*/
+
+/*SECTION-3 START*/
+.section-3{
+	width:100%;
+	height:949px;
+	background: $glight_color;
+	padding-top:78px;
+	padding-bottom: 89px;
+	a{
+		margin-top: 250px;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top:12px;
+		padding-bottom:12px;
+		padding-left:20px;
+		padding-right:20px;
+		color:$glight_color;
+		border:3px solid $gdark_color;
+	}
+
+
+	.section-3__img{
+		/*width: 100%;
+		height:auto;*/
+		width:370px;
+		height:420px;
+		margin-top: 70px;
+	}
+	img{
+		position:relative;
+		margin:0px;		
+	}
+	.section-3__inner{
+		width:370px;
+		height:420px;
+	}
+	.section-3__inner{
+		top: -100%;
+		z-index: 1; 
+		position: absolute;
+		overflow: hidden;
+		.fa{
+			color:red;
+			/*color:$glight_color;*/
+			opacity: 0.8;
+			font-size: 41px;
+			text-align: center;
+		}
+		.fa:hover{
+			color:yellow;
+		}
+
+		.section-3__inner:hover{
+			top: 370px;
+			z-index: 1; 
+			background-color: rgba(0,0,0, .5);
+
+			.section-3--hovered-text:hover{
+				font-family: $gfont;
+				color: $glight_color;
+				font-size: 22px; 
+				font-weight: 400;
+				line-height: 60px; 
+				text-align: center;
+			}
+		}
+	}
+
+}
+
+
+
+/*SECTION-3 END*/
+
+/*FOOTER START*/
+footer{
+	background: url('../img/footer_bg.png');
+	width:100%;
+	height: 797px;
+	padding-top: 60px;
+	.footer__menu{
+		margin-top: 60px;
+		text-align:center;
+		.fa{
+			color:$glight_color;
+			font-size: 24px;
+		}
+		.fa:hover{
+			color:gray;
+		}
+		li{
+			padding-right:24px;
+		}
+		li:nth-last-child(1){
+			padding-right:0px;
+		}
+		
+	}
+}
+.white-t{
+	color:$glight_color;
+}
+
+.footer-form{
+	form{
+		padding-top: 70px;
+		input, textarea{
+			color:$glight_color;
+			padding-left:29px;
+			padding-bottom: 19px;
+			padding-top: 19px;
+			border:none;
+			border-bottom:2px solid #afafaf;
+			font-family:$gfont;
+			color: #676767;
+			font-size: 18px;
+			font-weight: 400;
+			text-align: left; 
+			margin-bottom: 80px;
+			background-color: rgba(0,0,0, 0);
+		}
+		input[type="text"]{
+			width:100%;
+		}
+		input[type="email"]{
+			width:100%;
+		}
+		textarea{
+			width:95%;
+			padding:0px;
+			padding-left:29px;
+			padding-top: 19px;
+			margin-left: 15px;
+		}
+
+		input:hover, textarea:hover{
+			border-bottom:2px solid $glight_color;
+			color: $gdark_color;
+			background-color: $glight_color;
+		}
+
+		button{
+			margin:0;
+			margin-left: 50px;
+			margin-bottom: 88px;
+			background-color: rgba(0,0,0, 0);
+			text-transform: uppercase;
+			font-family: $gfont;
+			color: $glight_color;
+			font-size: 24px;
+			font-weight: 400;
+			padding-left:60px;
+			padding-right:60px;
+			padding-top:12px;
+			padding-bottom:12px;
+			border:3px solid $glight_color;
+		}
+		button:hover{
+			background-color: $glight_color;
+			color:$gdark_color;
+		}
+
+	}
+}
+
+/*FOOTER END*/
+
+
